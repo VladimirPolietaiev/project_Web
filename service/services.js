@@ -1,4 +1,5 @@
-app.factory("DataService", DataService);
+var module=angular.module("services" ,[]);
+module.factory("DataService", DataService);
  
     function DataService() {
         var items = [
